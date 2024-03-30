@@ -1,0 +1,430 @@
+body{
+    margin: 0px 0px;
+    transition: 1s;
+}
+.menu{
+    list-style-type: none;
+}
+.arrow{
+width: 40px;
+ border: none;
+ right: 0;
+ position: absolute;
+ transform: rotateX('90deg');
+}
+.forArrow{
+    position: relative;
+    height: 50px;
+    margin-top: 2%;
+}
+.feedback{
+    background-color: #f6f6f6;
+    padding: 10px 4%;
+    padding-bottom: 25px;
+    width: 35%;
+}
+.test{
+    font-size: 21px;
+    margin-left: 3%;
+    text-decoration: underline;
+}
+.test-div{
+    width: 100%;
+    height: 50px;
+    border-radius: 10px;
+    background-color: #ffe38e;
+    padding-top: 2%;
+}
+.soder2{
+font-size: 27px;
+}
+.main{
+    font-size: 22px;
+    margin-top: 8px;
+    margin-bottom: 5px;
+}
+.start{
+    margin-top: 20px;
+    display: flex;
+    height: 0; 
+    width: 30%;
+    border-bottom: 65px solid #74D2CB;
+    border-left: 0px solid transparent;
+    border-right: 50px solid transparent;
+    text-align: center;
+}
+.feedback-tytle{
+    margin-top: 20px;
+    display: flex;
+    height: 0; 
+    width: 25%;
+    border-bottom: 55px solid #74D2CB;
+    border-left: 0px solid transparent;
+    border-right: 50px solid transparent;
+    text-align: center;
+}
+.non-main{
+    margin-left: 5%;
+    margin-top: 3px;
+    margin-bottom: 5px;
+}
+a{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+  }
+  .information{
+    padding-top: 3px;
+    padding-bottom: 3px;
+    width: 45%;
+    background-color: #f6f6f6;
+  }
+.page{
+    width: 100%;
+    height: 100%;
+    background-color: #caedc7;
+    padding-bottom: 30px;
+}
+.name{
+    width: 100%;
+    height: 100px;
+    background-color: #549b5a7e;
+    margin: 0px auto;
+    display: flex;
+    text-align: center;
+   
+}
+h1{
+    font-size: 50px;
+    margin: auto;
+    font-family: 'Fira Sans', sans-serif;
+}
+h1:after{
+    width: 20%;
+    height: 3px;
+    background-color: rgb(0, 0, 0);
+    position: absolute;
+    content: '';
+    top: 52px;
+    right: 8%;
+}
+h1:before{
+    width: 20%;
+    height: 3px;
+    background-color: rgb(0, 0, 0);
+    position: absolute;
+    content: '';
+    top: 52px;
+    left: 8%;
+}
+.container{
+    height: 100%;
+    margin: 0px 4%;
+    
+}
+.stadii{
+    width: 35%;
+}
+.light{
+    display: block;
+    margin: auto;
+    width: 55%;
+}
+iframe{
+    margin-left: 3%;
+    width: 560px;
+    height: 315px;
+
+}
+.formula{
+    width: 30%;
+}
+.tytle{
+    margin-top: 20px;
+    display: flex;
+    height: 0; 
+    width: 50%;
+    border-bottom: 65px solid #74D2CB;
+    border-left: 0px solid transparent;
+    border-right: 50px solid transparent;
+    text-align: center;
+}
+.soder{
+    margin: 3% 3%;
+}
+.calvin{
+    width: 65%;
+    display: block;
+    margin: auto;
+}
+.div-link{
+    margin-top: 1%;
+    background-color: #f6f6f6;
+    width: auto;
+    height: auto;
+    overflow: hidden;
+/* padding-left: 3%;
+padding-right: 3%;
+padding-top: 1.5%;
+padding-bottom: 1.5%; */
+}
+.link-cont{
+    padding-left: 3%;
+    padding-right: 3%;
+    padding-bottom: 1.5%;
+    padding-top: 1.5%;
+}
+.btn{
+    width: 200px;
+    height: 70px;
+    background-color: #f5ffe2;
+    border-radius: 5px;
+    font-size: 17px;
+}
+.fin-link{
+    font-size: 18px;
+margin-top: 1%;
+}
+h2{
+    margin: 2% 3%;
+    font-size: 28px;
+    font-family: 'Rubik', sans-serif;
+}
+.text{
+    background-color: #f6f6f6;
+    padding: 10px 4%;
+    padding-bottom: 25px;
+}
+p{
+    font-size: 18px;
+    font-family: 'Rubik', sans-serif;
+}
+h3{
+    font-family: 'Rubik', sans-serif;
+    font-size: 23px;
+    margin-left: 2%;
+}
+.ATF{
+    width: 40%;
+}
+img{
+    margin-left: 3%;
+    border: 2px solid black;
+    width: 450px;
+}
+.text-change{
+    font-weight: 600;
+}
+.bakt{
+    width: 250px;
+    margin-left: 15%;
+}
+
+.info{
+    display: flex;
+align-items: center;
+}
+.info-text{
+width: 600px;
+margin-top: 10px;
+margin-left: 5%;
+}
+li{
+    font-family: 'Rubik', sans-serif;
+    font-size: 19px;
+}
+
+.under{
+    text-decoration: underline black;
+}
+.metabolizm{
+    width: 50%;
+    border: 2px solid black;
+    display: block;
+    margin: 0px auto;
+}
+.glycosa{
+    width: 30%;
+}
+.slowR{
+    width: 35%;
+}
+.fastR{
+   width: 35%;
+}
+.paint{
+    width: 50%;
+    display: block;
+    margin: 0px auto;
+}
+
+@media(max-width: 700px){
+    h1{
+        font-size: 25px;
+    }
+    h1:after{
+display: none;
+    }
+    h1:before{
+        display: none;
+     }
+     .start{
+        height: 0; 
+width: 130px;
+border-bottom: 40px solid #74D2CB;
+border-left: 0px solid transparent;
+border-right: 50px solid transparent;
+     }
+     .tytle{
+        height: 0; 
+width: 220px;
+border-bottom: 40px solid #74D2CB;
+border-left: 0px solid transparent;
+border-right: 50px solid transparent;
+     }
+     h2{
+        font-size: 15px;
+        margin-top: 5%;
+        margin-bottom: 5%;
+     }
+     p{
+        font-size: 13px;
+     }
+     h3{
+        font-size: 15px;
+     }
+     .soder{
+        margin-top: 8%;
+        margin-left: 8%;
+     }
+     li{
+        font-size: 13px;
+     }
+     .main{
+        font-size: 14px;
+        margin-left: -10%;
+     }
+     .non-main{
+        margin-left: -4%;
+     }
+     .name{
+        height: 60px;;
+     }
+     .info{
+        display: block;
+        border-bottom: 1px solid black;
+        border-top: 1px solid #000;
+        padding-top: 5%;
+     }
+     .info-text{
+        margin-left: 0px;
+        width: 100%;
+        text-align: center;
+     }
+     .information{
+        width: 250px;
+     }
+     .formula{
+        width: 90%;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+     }
+     .metabolizm{
+        width: 100%;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+     }
+     .bakt{
+        width: 60%;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+     }
+     .ATF{
+            width: 100%;
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+     }
+     .glycosa{
+        width: 100%;
+        display: block;
+        margin-left: auto;
+        margin-right: auto; 
+     }
+     .slowR, .fastR{
+        width: 70%;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+     }
+     .bigLI{
+        font-size: 14px;
+        margin-left: 0px;
+     }
+     iframe{
+        width: 100%;
+        height: 100%;
+        margin-left: 0px;
+     }
+     .paint{
+        width: 90%;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+     }
+     .stadii{
+        width: 95%;
+        margin: auto;
+        display: block;
+     }
+     .krebs{
+        width: 95%;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+     }
+     .xz{
+        width: 85%;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+     }
+     .light{
+        width: 90%;
+     }
+     .calvin{
+        width: 100%;
+     }
+     .fin-link{
+        font-size: 14px;
+     }
+     .arrow{
+        width: 25px;
+     }
+     .forArrow{
+        height: 20px;
+     }
+     .test{
+        font-size: 15px;
+        margin-left: 3%;
+        text-decoration: underline;
+    }
+    .test-div{
+        width: 100%;
+        height: 35px;
+        border-radius: 10px;
+        background-color: #ffe38e;
+        padding-top: 4%;
+    }
+}
+@media(max-width: 1300px){
+    h1:after{
+        display: none;
+            }
+            h1:before{
+                display: none;
+             }
+
+}
